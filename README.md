@@ -6,3 +6,4 @@ It supports pause/play by pressing the powermate and volume increase/decrease by
 
 The powermate automatically shuts down.
 
+The script uses the LMSTools library to connect to the Logitech Media Server (https://github.com/elParaguayo/LMSTools).
