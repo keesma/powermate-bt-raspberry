@@ -1,0 +1,13 @@
+[Unit]
+Description=Control logitechmediaserver with powermate
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/powermate/pm.py 00:12:92:08:0E:3F
+Restart=always
+RestartSec=10s
+KillMode=process
+TimeoutSec=infinity
+
+[Install]
+WantedBy=multi-user.target
