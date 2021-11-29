@@ -1,5 +1,5 @@
 # powermate-bt-raspberry
-Powermate BT Raspberry Pi integration with squeezelite
+Powermate Bluetooth Raspberry Pi integration with squeezelite
 
 This scripts connects a raspberry pi to the powermate bluetooth.
 It supports pause/play by pressing the powermate and volume increase/decrease by turning the powermate knob.
